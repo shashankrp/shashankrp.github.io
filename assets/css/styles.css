@@ -202,7 +202,7 @@ main .container {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #000;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -246,7 +246,7 @@ main .container {
   background-color: var(--first-color);
 }
 .nav__logo{
-  color: var(--second-color);
+  color: #FFFFFF;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -480,7 +480,7 @@ main .container {
     display: none;
   }
   .nav__link{
-    color: var(--second-color);
+    color: #FFFFFF;
   }
 
   .home{
@@ -533,4 +533,8 @@ main .container {
   .home__img{
     right: 12%;
   }
+}
+
+body{
+  background-color: lightblue;
 }
