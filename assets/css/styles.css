@@ -236,23 +236,22 @@ main .container {
 .nav__link:hover{
   position: relative;
 }
-.nav__link:hover::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 0.18rem;
-  left: 0;
-  top: 2rem;
-  background-color: var(--first-color);
-}
-.nav__logo{
-  color: #FFFFFF;
-}
-.nav__toggle{
-  color: var(--second-color);
-  font-size: 1.5rem;
+
+.nav__link i{
+  background-color: #00ebab;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
   cursor: pointer;
+  opacity: 1;
+  visibility: hidden;
+  padding: 20px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
+
 
 /*Active menu*/
 .active::after{
@@ -553,6 +552,10 @@ main .container {
   .home__img{
     right: 18%;
   }
+}
+
+.home__social a{
+  color: lightblue;
 }
 
 body{
