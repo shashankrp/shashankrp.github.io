@@ -532,6 +532,11 @@ main .container {
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
+  .work__container1{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    column-gap: 2rem;
+  }
   .contact__form{
     width: 360px;
   }
@@ -552,4 +557,8 @@ main .container {
 
 body{
   background-color: lightblue;
+}
+
+a{
+  color: black;
 }
