@@ -57,9 +57,7 @@ class Chatbox {
             this.updateChatText(chatbox)
             textField.value = ''
         }).catch((error)=>{
-            if(error!="TypeError"){
-                console.log('Error:',error)
-            }
+            console.log('Error:',error)
             this.updateChatText(chatBox)
             textField.value = ''
         })
